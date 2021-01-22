@@ -7,4 +7,12 @@ export class Persona{
       this.apellido = apellido
     }
 
+    getNombre(): string{
+    	return this.nombre
+    }
+
+    getApellido(): string{
+    	return this.apellido
+    }
+
 }
